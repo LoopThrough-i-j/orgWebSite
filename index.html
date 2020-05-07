@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Company Profile Template - Materialize</title>
+
+  <!-- CSS  -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://kit.fontawesome.com/79fbe35b92.js"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-shims.min.css" media="all">
+  <script src="https://kit.fontawesome.com/79fbe35b92.js"></script>
+</head>
+
+
+<body id="home" class="scrollspy">
+
+  <!-- Navbar -->
+  <div class="navbar-fixed">
+    <nav class="brown">
+      <div class="container">
+        <div class="nav-wrapper">
+          <a href="#home" class="brand-logo">COMPANY</a>
+          <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#clients">Clients</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <!--  -->
+
+
+  <!-- Sidenav -->
+  <ul class="sidenav" id="mobile-nav">
+    <li><a href="#about">About Us</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#portfolio">Portfolio</a></li>
+    <li><a href="#clients">Clients</a></li>
+    <li><a href="#contact">Contact Us</a></li>
+  </ul>
+  <!--  -->
+
+
+  <div id="index-banner" class="container intro-section">
+    <div class="section">
+      <div class="container">
+        <br><br>
+        <h1 class="header center white-text text-lighten-2">Company Profile Template</h1>
+        <div class="row center">
+          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+        </div>
+
+      </div>
+    </div>
+    <!--div class="parallax"><img src="img/work.jpg" alt="Unsplashed background img 1"></!--div-->
+  </div>
+
+
+<!-- About Us -->
+<section id="about" class="about">
+  <div class="container">
+    <h3 class="center light grey-text text-darken-3">About Us</h3>
+    <div class="row">
+        <div class="light pKiri">
+          <h5>We Are Professionals</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div class="light pKanan col m12 s12 l12">
+          <p>WEB DEVELOPMENT</p>
+          <div class="progress">
+              <div class="determinate brown" style="width: 100%"></div>
+          </div>
+          <p>MOBILE APP DEVELOPMENT</p>
+          <div class="progress">
+              <div class="determinate brown" style="width: 100%"></div>
+          </div>
+          <p>GAME DEVELOPMENT</p>
+          <div class="progress">
+              <div class="determinate brown" style="width: 100%"></div>
+          </div>
+        </div>
+    </div> 
+  </div>
+</section>
+<!--  -->
+
+
+<!-- Services -->
+<section id="services" class="services scrollspy grey lighten-4">
+  <div class="container">
+    <h3 class="light center grey-text text-darken-3">Our Services</h3>
+    <div class="row">
+      <div class="col m4 s12">
+        <div onclick="M.toast({html: '<strong>Web Development</strong>', classes: 'rounded, blue'})" class="card-panel center waves-effect waves-default">
+          <i class="material-icons medium">laptop_chromebook</i>
+          <h5>Web Development</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+      </div>
+      <div class="col m4 s12">
+        <div onclick="M.toast({html: '<strong>Mobile App Development</strong>', classes: 'rounded, blue'})" class="card-panel center waves-effect waves-default">
+          <i class="material-icons medium">developer_mode</i>
+          <h5>Mobile App Development</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+      </div>
+      <div class="col m4 s12">
+        <div onclick="M.toast({html: '<strong>Game Development</strong>', classes: 'rounded, blue'})" class="card-panel center waves-effect waves-default">
+          <i class="material-icons medium">games</i>
+          <h5>Game Development</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--  -->
+
+
+  <!-- Slider -->
+<section class="portfolio scrollspy" id="portfolio">
+<div class="slider">
+  <ul class="slides">
+    <li>
+      <img src="img/14.jpg"> <!-- random image -->
+      <div class="caption center-align">
+        <h3>This is our big Tagline!</h3>
+        <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+      </div>
+    </li>
+    <li>
+      <img src="img/13.jpg"> <!-- random image -->
+      <div class="caption right-align">
+        <h3>This is our big Tagline!</h3>
+        <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+      </div>
+    </li>
+    <li>
+      <img src="img/work.jpg"> <!-- random image -->
+      <div class="caption right-align">
+        <h3>This is our big Tagline!</h3>
+        <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+      </div>
+    </li>
+  </ul>
+</div>
+</section>
+  <!--  -->
+
+
+  <div class="container">
+    <div class="section">
+
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
+            <h5 class="center">Speeds Up Development</h5>
+
+            <p class="light">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">group</i></h2>
+            <h5 class="center">User Experience Focused</h5>
+
+            <p class="light">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
+            <h5 class="center">Professionals Work</h5>
+
+            <p class="light">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+<!-- Client -->
+<section class="clients scrollspy" id="clients">
+  <div class="parallax-container">
+      <div class="container clients">
+        <h3 class="center light white-text">Our Client</h3>
+        <div class="row">
+          <div class="col m4 s12 center">
+            <img src="img/youtube-logo-preview.png">
+          </div>
+          <div class="col m4 s12 center">
+            <img src="img/youtube-logo-preview.png">
+          </div>
+          <div class="col m4 s12 center">
+            <img src="img/youtube-logo-preview.png">
+          </div>
+        </div>
+    </div>
+    <div class="parallax back-client"><img src="img/13.jpg" alt="Unsplashed background img 2"></div>
+  </div>
+</section>
+<!--  -->
+
+
+
+<!-- Floating Button -->
+
+<div class="fixed-action-btn">
+  <a class="btn-floating btn-large waves-effect waves-light blue pulse">
+    <i class="large material-icons">menu</i>
+  </a>
+  <ul>
+    <li><a onclick="M.toast({html: '<strong>Home</strong>', classes: 'rounded, blue'})" class="btn-floating red" href="#home"><i class="material-icons">arrow_upward</i></a></li>
+    <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
+    <li><a class="btn-floating green"><i class="material-icons">person_pin</i></a></li>
+    <li><a class="btn-floating cyan"><i class="material-icons">attach_file</i></a></li>
+  </ul>
+</div>
+
+<!--  -->
+
+<div class="footer-wrapper">
+  <div class="container-fluid">
+      <div class="footer-social-icons">
+      <ul>
+        <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+        <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+        <li><a href="#" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
+        <li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+        <li><a href="#" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+        <li><a href="#" target="_blank"><i class="fab fa-youtube"></i></a></li>
+        <li><a href="#" target="_blank"><i class="fab fa-google-plus"></i></a></li>
+        <li><a href="#" target="_blank"><i class="fab fa-skype"></i></a></li>
+        <li><a href="#" target="_blank"><i class="fab fa-pinterest"></i></a></li>
+      </ul>
+      </div>
+      <div class="footer-mid-part">
+      <div class="row">
+          <div class="col-lg col-md-6 col-sm-12">
+              <div class="footer-section-one">
+                  <div class="footer-heading"><h2>Contact Us</h2></div>
+                  <div class="footer-contact-box">
+                      <div class="footer-contact-icon"><i class="fa fa-map-marker"></i></div>
+                      <div class="footer-contact-text">
+                          <p>Address: Central Road Woodside Circle, CN 789456</p>
+                      </div>
+                      <div class="clr"></div>
+                  </div>
+                  <div class="footer-contact-box">
+                      <div class="footer-contact-icon"><i class="fa fa-phone"></i></div>
+                      <div class="footer-contact-text">
+                          <p><a href="tel:+012-3456-789">+012-3456-7890</a></p>
+                      </div>
+                      <div class="clr"></div>
+                  </div>
+                  <div class="footer-contact-box">
+                      <div class="footer-contact-icon"><i class="fa fa-fax"></i></div>
+                      <div class="footer-contact-text">
+                          <p><a href="#">+012-3456-789</a></p>
+                      </div>
+                      <div class="clr"></div>
+                  </div>
+                  <div class="footer-contact-box">
+                      <div class="footer-contact-icon"><i class="fa fa-envelope"></i></div>
+                      <div class="footer-contact-text">
+                          <p><a href="#">abc@xyz.com</a></p>
+                      </div>
+                      <div class="clr"></div>
+                  </div>
+                  <div class="footer-contact-box">
+                      <div class="footer-contact-icon"><i class="fa fa-globe"></i></div>
+                      <div class="footer-contact-text">
+                          <p><a href="#">http://www.example.com</a></p>
+                      </div>
+                      <div class="clr"></div>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg col-md-6 col-sm-12">
+          <div class="footer-section-two">
+              <div class="footer-heading"><h2>Quick Link</h2></div>
+              <div class="footer-link">
+              <ul>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Web Services</a></li>
+                  <li><a href="#">Graphic Design</a></li>
+                  <li><a href="#">Web Marketing</a></li>
+                  <li><a href="#">Services</a></li>
+                  <li><a href="#">Training</a></li>
+                  <li><a href="#">Contact Us</a></li>
+              </ul>
+              </div>
+          </div>
+          </div>
+          <div class="col-lg col-md-6 col-sm-12">
+          <div class="footer-section-two">
+              <div class="footer-heading"><h2>Our Services</h2></div>
+              <div class="footer-link">
+              <ul>
+                  <li><a href="#">Linux Hosting</a></li>
+                  <li><a href="#">Windows Hosting</a></li>
+                  <li><a href="#">Domain Registration</a></li>
+                  <li><a href="#">SEO Promotion</a></li>
+                  <li><a href="#">Our Plans</a></li>
+                  <li><a href="#">Latest Offers</a></li>
+                  <li><a href="#">Sitemap</a></li>
+                  <li><a href="#">Website Maintenance</a></li>
+              </ul>
+              </div>
+          </div>
+          </div>
+          <div class="col-lg col-md-6 col-sm-12">
+          <div class="footer-section-three">
+              <div class="footer-heading"><h2>Get in touch</h2></div>
+              <div class="footer-form">
+                  <form method="post" action="#">
+                  <div class="footer-form-box">
+                      <input type="text" class="footer-form-style" placeholder="Name">
+                  </div>
+                  <div class="footer-form-box">
+                      <input type="text" class="footer-form-style" placeholder="Email">
+                  </div>
+                  <div class="footer-form-box">
+                      <input type="text" class="footer-form-style" placeholder="Phone Number">
+                  </div>
+                  <div class="footer-form-box">
+                      <input type="submit" class="footer-form-submit-style" value="SUBMIT" ">
+                  </div>
+                  </form>
+             </div>
+          </div>
+          </div>
+      </div>
+      </div>
+  <div class="footer-bottom">
+      <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12">
+          <p>Copyright 2020 All Rights Reserved</p>
+      </div>
+      </div>
+  </div>
+</div>
+</div>
+
+
+  <!--  Scripts-->
+  <script src="js/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script src="js/script.js"></script>
+
+  <script>
+
+    const slider = document.querySelectorAll('.slider');
+    M.Slider.init(slider, {
+      indicators: false,
+      height: 500,
+      transition: 600,
+      interval: 3000
+    });
+
+    const materialbox = document.querySelectorAll('.materialboxed');
+    M.Materialbox.init(materialbox);
+
+    const scroll = document.querySelectorAll('.scrollspy');
+    M.ScrollSpy.init(scroll, {
+      scrollOffset: 46
+    });
+
+    const floating = document.querySelectorAll('.fixed-action-btn');
+    M.FloatingActionButton.init(floating, {
+      direction: 'left'
+    });
+
+  </script>
+
+  </body>
+</html>
