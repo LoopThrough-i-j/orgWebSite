@@ -3,10 +3,11 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>Company Profile Template - Materialize</title>
+  <title>Welcome to Mendu Rural Dvelopment Society</title>
 
   <!-- CSS  -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/79fbe35b92.js"></script>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
@@ -21,16 +22,18 @@
   <!-- Navbar -->
   <div class="navbar-fixed">
     <nav class="brown">
-      <div class="container">
+      <div class="container-fluid">
         <div class="nav-wrapper">
-          <a href="#home" class="brand-logo">COMPANY</a>
+          <a href="#home" class="brand-logo">Mendu Rural Development Society</a>
           <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
           <ul class="right hide-on-med-and-down">
             <li><a href="#about">About Us</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#clients">Clients</a></li>
+            <li><a href="#services">Our Programs</a></li>
+            
+            <li><a href="#portfolio">Gallery</a></li>
+            <li><a href="#clients">Free Learning</a></li>
             <li><a href="#contact">Contact Us</a></li>
+          
           </ul>
         </div>
       </div>
@@ -42,9 +45,9 @@
   <!-- Sidenav -->
   <ul class="sidenav" id="mobile-nav">
     <li><a href="#about">About Us</a></li>
-    <li><a href="#services">Services</a></li>
-    <li><a href="#portfolio">Portfolio</a></li>
-    <li><a href="#clients">Clients</a></li>
+    <li><a href="#services">Our programs</a></li>
+    <li><a href="#portfolio">Gallery</a></li>
+    <li><a href="#clients">Free Learning</a></li>
     <li><a href="#contact">Contact Us</a></li>
   </ul>
   <!--  -->
@@ -70,25 +73,18 @@
   <div class="container">
     <h3 class="center light grey-text text-darken-3">About Us</h3>
     <div class="row">
-        <div class="light pKiri">
-          <h5>We Are Professionals</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </div>
+      
+         
         <div class="light pKanan col m12 s12 l12">
-          <p>WEB DEVELOPMENT</p>
+         <li><a href="">Memorandum Of Association</a> </li>
           <div class="progress">
               <div class="determinate brown" style="width: 100%"></div>
           </div>
-          <p>MOBILE APP DEVELOPMENT</p>
+         <li><a href="">Aims And Objectives</a></li>
           <div class="progress">
               <div class="determinate brown" style="width: 100%"></div>
           </div>
-          <p>GAME DEVELOPMENT</p>
+       <li><a href="">Brief Report</a></li> 
           <div class="progress">
               <div class="determinate brown" style="width: 100%"></div>
           </div>
@@ -102,58 +98,79 @@
 <!-- Services -->
 <section id="services" class="services scrollspy grey lighten-4">
   <div class="container">
-    <h3 class="light center grey-text text-darken-3">Our Services</h3>
+    <h3 class="light center grey-text text-darken-3">Our Programs</h3>
+   
     <div class="row">
       <div class="col m4 s12">
         <div onclick="M.toast({html: '<strong>Web Development</strong>', classes: 'rounded, blue'})" class="card-panel center waves-effect waves-default">
-          <i class="material-icons medium">laptop_chromebook</i>
-          <h5>Web Development</h5>
+          <i class="fas fa-book-open"></i>
+         <a href=""><h5>Literacy Awarness</h5></a> 
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
           tempor incididunt ut labore et dolore magna aliqua.</p>
         </div>
       </div>
       <div class="col m4 s12">
         <div onclick="M.toast({html: '<strong>Mobile App Development</strong>', classes: 'rounded, blue'})" class="card-panel center waves-effect waves-default">
-          <i class="material-icons medium">developer_mode</i>
-          <h5>Mobile App Development</h5>
+          <i class="fas fa-child"></i>
+         <a href=""><h5>Women and Child Development</h5></a> 
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
           tempor incididunt ut labore et dolore magna aliqua.</p>
         </div>
       </div>
       <div class="col m4 s12">
         <div onclick="M.toast({html: '<strong>Game Development</strong>', classes: 'rounded, blue'})" class="card-panel center waves-effect waves-default">
-          <i class="material-icons medium">games</i>
-          <h5>Game Development</h5>
+          <i class="fas fa-baby"></i>
+         <a href=""><h5>Street Children Rehabilitation</h5></a> 
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
           tempor incididunt ut labore et dolore magna aliqua.</p>
         </div>
       </div>
+    </div>
+
+    <div class="row">
+      <div class="col m6 s12">
+        <div onclick="M.toast({html: '<strong>Web Development</strong>', classes: 'rounded, blue'})" class="card-panel center waves-effect waves-default">
+          <i class="fas fa-briefcase-medical"></i>
+         <a href=""> <h5>HIV/AIDS Awarness</h5></a>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+      </div>
+      <div class="col m6 s12">
+        <div onclick="M.toast({html: '<strong>Mobile App Development</strong>', classes: 'rounded, blue'})" class="card-panel center waves-effect waves-default">
+          <i class="fas fa-info-circle"></i>
+          <a href=""><h5>And many more</h5></a>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+      </div>
+      
     </div>
   </div>
 </section>
 <!--  -->
 
 
-  <!-- Slider -->
+  <!-- Slider 
 <section class="portfolio scrollspy" id="portfolio">
 <div class="slider">
   <ul class="slides">
     <li>
-      <img src="img/14.jpg"> <!-- random image -->
+      <img src="img/14.jpg">
       <div class="caption center-align">
         <h3>This is our big Tagline!</h3>
         <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
       </div>
     </li>
     <li>
-      <img src="img/13.jpg"> <!-- random image -->
+      <img src="img/13.jpg"> 
       <div class="caption right-align">
         <h3>This is our big Tagline!</h3>
         <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
       </div>
     </li>
     <li>
-      <img src="img/work.jpg"> <!-- random image -->
+      <img src="img/work.jpg"> 
       <div class="caption right-align">
         <h3>This is our big Tagline!</h3>
         <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
@@ -162,13 +179,12 @@
   </ul>
 </div>
 </section>
-  <!--  -->
+   -->
 
 
-  <div class="container">
+  <!-- <div class="container">
     <div class="section">
 
-      <!--   Icon Section   -->
       <div class="row">
         <div class="col s12 m4">
           <div class="icon-block">
@@ -208,10 +224,10 @@
       </div>
 
     </div>
-  </div>
+  </div> -->
 
 
-<!-- Client -->
+<!-- Client 
 <section class="clients scrollspy" id="clients">
   <div class="parallax-container">
       <div class="container clients">
@@ -231,12 +247,11 @@
     <div class="parallax back-client"><img src="img/13.jpg" alt="Unsplashed background img 2"></div>
   </div>
 </section>
-<!--  -->
+ -->
 
 
 
-<!-- Floating Button -->
-
+<!-- Floating Button 
 <div class="fixed-action-btn">
   <a class="btn-floating btn-large waves-effect waves-light blue pulse">
     <i class="large material-icons">menu</i>
@@ -249,11 +264,11 @@
   </ul>
 </div>
 
-<!--  -->
+ -->
 
 <div class="footer-wrapper">
   <div class="container-fluid">
-      <div class="footer-social-icons">
+      <!-- <div class="footer-social-icons">
       <ul>
         <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
         <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
@@ -265,7 +280,7 @@
         <li><a href="#" target="_blank"><i class="fab fa-skype"></i></a></li>
         <li><a href="#" target="_blank"><i class="fab fa-pinterest"></i></a></li>
       </ul>
-      </div>
+      </div> -->
       <div class="footer-mid-part">
       <div class="row">
           <div class="col-lg col-md-6 col-sm-12">
@@ -274,35 +289,38 @@
                   <div class="footer-contact-box">
                       <div class="footer-contact-icon"><i class="fa fa-map-marker"></i></div>
                       <div class="footer-contact-text">
-                          <p>Address: Central Road Woodside Circle, CN 789456</p>
+                          <p>Address: Railway Station Road,Vadlamannada (Post)
+                            Gudlavalleru (Mandalam) Krishna Distt.</p>
+                            <p>Pin-521331, Andhra Pradesh</p>
                       </div>
                       <div class="clr"></div>
                   </div>
                   <div class="footer-contact-box">
                       <div class="footer-contact-icon"><i class="fa fa-phone"></i></div>
                       <div class="footer-contact-text">
-                          <p><a href="tel:+012-3456-789">+012-3456-7890</a></p>
+                          <p><a href="tel:08672-249100">08672-249100 </a></p>
+                          
                       </div>
                       <div class="clr"></div>
                   </div>
                   <div class="footer-contact-box">
                       <div class="footer-contact-icon"><i class="fa fa-fax"></i></div>
                       <div class="footer-contact-text">
-                          <p><a href="#">+012-3456-789</a></p>
+                          <p><a href="#">(M) 09818361558</a></p>
                       </div>
                       <div class="clr"></div>
                   </div>
                   <div class="footer-contact-box">
                       <div class="footer-contact-icon"><i class="fa fa-envelope"></i></div>
                       <div class="footer-contact-text">
-                          <p><a href="#">abc@xyz.com</a></p>
+                          <p><a href="#">mrdsociety9@gmail.com</a></p>
                       </div>
                       <div class="clr"></div>
                   </div>
                   <div class="footer-contact-box">
                       <div class="footer-contact-icon"><i class="fa fa-globe"></i></div>
                       <div class="footer-contact-text">
-                          <p><a href="#">http://www.example.com</a></p>
+                          <p><a href="#">www.mendururaldevelopmentsociety.com</a></p>
                       </div>
                       <div class="clr"></div>
                   </div>
@@ -315,11 +333,10 @@
               <ul>
                   <li><a href="#">Home</a></li>
                   <li><a href="#">About Us</a></li>
-                  <li><a href="#">Web Services</a></li>
-                  <li><a href="#">Graphic Design</a></li>
-                  <li><a href="#">Web Marketing</a></li>
-                  <li><a href="#">Services</a></li>
-                  <li><a href="#">Training</a></li>
+                  <li><a href="#">Our Programs</a></li>
+                  <li><a href="#">Gallery</a></li>
+                  <li><a href="#">Free learning</a></li>
+                  
                   <li><a href="#">Contact Us</a></li>
               </ul>
               </div>
@@ -327,24 +344,22 @@
           </div>
           <div class="col-lg col-md-6 col-sm-12">
           <div class="footer-section-two">
-              <div class="footer-heading"><h2>Our Services</h2></div>
+              <div class="footer-heading"><h2>Our Programs</h2></div>
               <div class="footer-link">
               <ul>
-                  <li><a href="#">Linux Hosting</a></li>
-                  <li><a href="#">Windows Hosting</a></li>
-                  <li><a href="#">Domain Registration</a></li>
-                  <li><a href="#">SEO Promotion</a></li>
-                  <li><a href="#">Our Plans</a></li>
-                  <li><a href="#">Latest Offers</a></li>
-                  <li><a href="#">Sitemap</a></li>
-                  <li><a href="#">Website Maintenance</a></li>
+                  <li><a href="#">Literacy Awarness</a></li>
+                  <li><a href="#">Women And Child Development</a></li>
+                  <li><a href="#">Street Children Rehabilitation</a></li>
+                  <li><a href="#">HIV/AIDS Awarness</a></li>
+                  <li><a href="#">And Many More</a></li>
+                  
               </ul>
               </div>
           </div>
           </div>
           <div class="col-lg col-md-6 col-sm-12">
           <div class="footer-section-three">
-              <div class="footer-heading"><h2>Get in touch</h2></div>
+              <div class="footer-heading"><h2>Join Our Cause / Volunteer us</h2></div>
               <div class="footer-form">
                   <form method="post" action="#">
                   <div class="footer-form-box">
