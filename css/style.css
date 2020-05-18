@@ -11,7 +11,10 @@ body{
 .right a:hover{
  color:orange;
 }
+.jumbotron{
+  background-color:whitesmoke;
 
+}
 
 nav ul a,
 nav .brand-logo {
