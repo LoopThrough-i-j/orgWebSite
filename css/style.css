@@ -5,6 +5,9 @@
  *
  * Made By MaterializeCSS.com
  */
+.imageStyle{
+  height: 200px !important;
+}
 body{
   font-family: 'Montserrat', sans-serif;
 }
@@ -39,10 +42,16 @@ section {
 .intro-section{
   height: 100vh;
   width: 100vw;
-  background-image: url("../img/work.jpg");
+  background: url("../img/3_sliding.jpg") no-repeat;
+  background-size: cover;
 }
 
-
+.idImage{
+  height: 100vh;
+  width: 100vw;
+  background: url("../img/5.jpg") no-repeat;
+  background-size:100vw;
+}
 .pKiri, .pKanan {
   opacity: 0;
   transform: translate(-130px, 0);
